@@ -1,0 +1,178 @@
+html,body {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    color: black;
+    background:transparent;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.titleDiv {
+    background-color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #8F99EF;
+}
+
+h1 {
+    font-weight: bold;
+    color: brown;
+    font-size: 35px;
+    text-align: left;
+    text-transform: capitalize;
+    font-style: normal;
+
+}
+
+.even {
+    background-color: #EFFBEF;
+}
+
+.odd {
+    background-color: white;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+td {
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+th {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.tdLabel {
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.label {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    color: black;
+}
+
+.errorLabel {
+    font-style: normal;
+    font-weight: normal;
+}
+
+A {
+    color: #4A825A;
+    text-decoration: none;
+    font-style: normal;
+}
+
+A:link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+A:visited {
+    text-decoration: none;
+}
+
+A:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.borderAll {
+    border: 2px solid #8F99EF;
+    width: 600px;
+}
+
+.butStnd {
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 105px;
+    color: #4A825A;
+    background-color: gainsboro;
+
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    text-align: right;
+}
+
+.errorSection {
+    padding: 2px 5px 10px 18px;
+}
+
+.alignMiddle {
+    text-align: center;
+}
+
+.errorMessage {
+    font-weight: bold;
+    color: red;
+    text-align: left;
+    list-style: none;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.errorLabel{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+.text{
+    width: 350px;
+    height: 35px;
+    font-size: 18px;
+    border: 2px solid #000000;
+}
+.textarea{
+    width: 250px;
+    height: 80px;
+    font-size: 15px;
+}
+.actionMessage{
+    font-weight: normal;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    list-style: none;
+}
+.selectText{
+    width: 255px;
+    height: 25px;
+    font-size: 15px;
+}
+ul{
+    display:  inline-block;
+    word-spacing: 20px;
+    padding-left: 350px;
+    font-size: 20px;
+}
+ul li{
+    display: inline-block;
+    word-spacing: 20px;
+    padding: 20px;
+}
+.alignRight{
+    padding-left: 900px;
+}
+.clearfix {
+    clear: both;
+}
