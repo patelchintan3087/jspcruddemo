@@ -63,7 +63,7 @@
                     <td><input type="checkbox"></td>
                     <td>${userBean.firstName}</td>
                     <td>${userBean.lastName}</td>
-                    <td>${userBean.email}</td>
+                    <td>${userBean.emailId}</td>
                     <td>${userBean.mobile}</td>
                     <td>${userBean.userName}</td>
                     <td>${userBean.password}</td>
