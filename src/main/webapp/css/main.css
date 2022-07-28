@@ -140,7 +140,7 @@ A:hover {
     width: 350px;
     height: 35px;
     font-size: 18px;
-
+    border: 1px solid #000000;
 }
 .textarea{
     width: 250px;
