@@ -13,7 +13,12 @@ public class UserController extends HttpServlet {
 	private static final String INSERT_OR_UPDATE = "user.jsp";
 	private static final String USER_LIST = "user.jsp";
 	private static final String ERROR = "error.jsp";
-	private UserDao userDao;
+	private final UserDao userDao;
+
+	public UserController() {
+		userDao = new UserDao();
+	}
+
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
