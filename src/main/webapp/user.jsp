@@ -72,7 +72,7 @@
                     <td>
                         <a href="UserController?action=edit&userId=${userBean.userId}">Edit</a>
                         &nbsp;|&nbsp;
-                        <a href="UserController?action=delete&userI=${userBean.userId}">Delete</a>
+                        <a href="UserController?action=delete&userId=${userBean.userId}">Delete</a>
                     </td>
                 </tr>
             </c:forEach>
