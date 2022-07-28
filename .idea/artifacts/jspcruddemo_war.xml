@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jspcruddemo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jspcruddemo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jspcruddemo-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="jspcruddemo:war exploded" />
+    </root>
+  </artifact>
+</component>
