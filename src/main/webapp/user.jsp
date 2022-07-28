@@ -18,31 +18,31 @@
     <form action="UserController" method="post">
         <input type="hidden" name="userId" value="${userBean.userId}">
         <div>
-            <label>FirstName </label>
-            <input type="text" name="firstName" value="${userBean.firstName}" size="30">
+            <label class="label">FirstName :</label>
+            <input type="text" name="firstName" class="text" value="${userBean.firstName}" size="30">
         </div>
         <div>
-            <label>LastName </label>
-            <input type="text" name="lastName" value="${userBean.lastName}" size="30">
+            <label class="label">LastName : </label>
+            <input type="text" name="lastName" class="text" value="${userBean.lastName}" size="30">
         </div>
         <div>
-            <label>E-Mail </label>
-            <input type="text" name="emailId" value="${userBean.emailId}" size="30">
+            <label class="label">E-Mail : </label>
+            <input type="text" name="emailId" class="text" value="${userBean.emailId}" size="30">
         </div>
         <div>
-            <label>Mobile </label>
-            <input type="text" name="mobile" value="${userBean.mobile}" size="30">
+            <label class="label">Mobile : </label>
+            <input type="text" name="mobile" class="text" value="${userBean.mobile}" size="30">
         </div>
         <div>
-            <label>UserName </label>
-            <input type="text" name="userName" value="${userBean.userName}" size="30">
+            <label class="label">UserName : </label>
+            <input type="text" name="userName" class="text" value="${userBean.userName}" size="30">
         </div>
         <div>
-            <label>Password </label>
-            <input type="password" name="password" value="${userBean.password}" size="30">
+            <label class="label">Password : </label>
+            <input type="password" name="password" class="text" value="${userBean.password}" size="30">
         </div>
         <div>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" class="butStnd">
         </div>
     </form>
 </div>
@@ -59,8 +59,8 @@
                 <th>Password</th>
                 <th>Action</th>
             </tr>
-            <c:forEach items="${userList}" var="userBean">
-                <tr>
+            <c:forEach items="${userList}" var="userBean" varStatus="user">
+                <tr class="${user.count % 2 == 0 ? 'even':'odd'}">
                     <td><input type="checkbox"></td>
                     <td>${userBean.firstName}</td>
                     <td>${userBean.lastName}</td>
